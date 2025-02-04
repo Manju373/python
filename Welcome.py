@@ -1,0 +1,5 @@
+print("My name is Manjunath Ls")
+print("My age is ",23)
+print("Welcome \n Manjunath")
+print("hi",end=" ")
+print("python")
