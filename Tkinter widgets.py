@@ -1,0 +1,16 @@
+from tkinter import *
+window = Tk()
+window.title("Welcome to Tkinter")
+window.geometry("400x500")
+label = Label(text ="Enter your name",bg="orange",fg="blue")
+label.pack()
+entry=Entry()
+entry.pack()
+def function():
+    name = entry.get()
+    textbox.insert(END,name)
+button1=Button(text="click me",bg="orange",fg="blue",command=function)
+button1.pack()
+textbox=Text()
+textbox.pack()
+window.mainloop()
